@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "weatherApp",
+    "name": "My City Weather",
     "slug": "weatherApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/weather.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/weather.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,10 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reactnative.mycityweather",
+      "buildNumber": "1.0.0"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/weather.png"
+    },
+    "android": {
+      "package": "com.reactnative.mycityweather",
+      "versionCode": 1
     }
   }
 }
